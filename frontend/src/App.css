@@ -1,0 +1,119 @@
+.nav-ul li{
+  display:inline-block;
+  /* position: fixed; */
+  padding: 10px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: gray;
+}
+.inputBox{
+  display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid black;
+}
+.login{
+  margin-top: 25px;
+  margin-left: 30%;
+
+  
+}
+.nav-right{
+  text-align: right;
+}
+.button{
+  
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: gray;
+  color: white;
+  border: 1px;
+  cursor: pointer
+}
+.appButton{
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: gray;
+  border: solid 1px;
+  cursor: pointer;
+}
+.reg, .product{
+  margin-left: 30%;
+}
+.list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.search{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid red;
+  padding-left: 20px;
+}
+.list ul li{
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 5px;
+  width: 150px;
+}
+.list ul {
+  margin: 0;
+}
+.invalid{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+.nav-ul{
+    margin: 0px;
+    padding: 5px;
+    background-color: gray;
+}
+.nav-ul li a{
+  
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
